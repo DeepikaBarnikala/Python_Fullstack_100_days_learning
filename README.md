@@ -54,6 +54,8 @@ Version Control
 Git
 GitHub
 
+
+
 STRUCTURE---100-Days-Python-FullStack/
 │
 ├── Day-01/
@@ -72,6 +74,10 @@ STRUCTURE---100-Days-Python-FullStack/
 │   └── ...
 │
 └── README.md
+
+
+
+
 
 💡 Why Am I Doing This?
 
@@ -108,8 +114,11 @@ Committing progress to GitHub
 
 Feel free to explore this repository, provide suggestions, or share feedback.
 
-GitHub: https://github.com/DeepikaBarnikala
-LinkedIn: https://www.linkedin.com/in/deepika-barnikala-ab5a4b301/?trk=opento_sprofile_topcard 
+GitHub: 
+https://github.com/DeepikaBarnikala
+
+LinkedIn:
+https://www.linkedin.com/in/deepika-barnikala-ab5a4b301/?trk=opento_sprofile_topcard 
 
 ⭐ Support
 
