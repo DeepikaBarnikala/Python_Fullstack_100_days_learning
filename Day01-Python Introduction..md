@@ -132,6 +132,7 @@ Here:
 ----------------------------------------------------------------------------------------------------------------
 
 2). Comments
+
 Comments are notes written for programmers. Python ignores comments during execution.
 
 * Single-Line Comment
@@ -155,6 +156,7 @@ Version 1.0 """
 **. Variables in Python**
 
 What is a Variable?
+
 A variable is a named memory location used to store data values.
 Think of a variable as a labeled container that stores information.
 
@@ -229,6 +231,7 @@ Python
 Java
 
 **Rule 5**: Keywords Cannot Be Used as Variable Names
+
 Invalid
 class = "Python"
 Valid
@@ -248,6 +251,7 @@ studentName = "Deepika"
 StudentName = "Deepika"
 
 **Multiple Assignment**
+
 Multiple assignment allows assigning values to multiple variables in a single statement.
 
 * Assign Different Values
@@ -263,6 +267,7 @@ Deepika
 Hyderabad
 
 * Assign Same Value to Multiple Variables
+  
 x = y = z = 100
 print(x)
 print(y)
@@ -274,6 +279,7 @@ Output:
 100
 
 * Reassignment
+* 
 Reassignment means changing the value stored in a variable.
 
 Example:
@@ -288,6 +294,7 @@ Output:
 23
 
 * Reassigning Different Data Types
+  
 Python is dynamically typed.
 
 value = 10
@@ -303,6 +310,7 @@ Python
 True
 
 **Variable Swapping**
+
 Swapping means exchanging values between variables.
 
 * Traditional Method
@@ -332,6 +340,7 @@ Output:
 10
 
 **Deleting Variables**
+
 Python provides the  "del" keyword to remove variables from memory.
 
 * Syntax:
@@ -347,11 +356,13 @@ Output
 NameError: name 'name' is not defined
 
 **Deleting Multiple Variables**
+
 x = 10
 y = 20
 del x, y
 
 **Variable Type Checking**
+
 Use the type() function.
 
 Example:
@@ -366,6 +377,7 @@ Output:
 
 ----------------------------------------------------------------------------------------------------------------
 **Boolean Data Type**
+
 Boolean is a built-in data type that represents logical values.
 A Boolean variable can have only one of two values:
 True
@@ -394,6 +406,7 @@ True
 False
 
 * Boolean Type Verification
+  
 value = True
 print(type(value))
 Output
