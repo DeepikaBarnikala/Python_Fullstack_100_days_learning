@@ -398,7 +398,7 @@ Authentication systems
 Real-world logical operations
 
 * Creating Boolean Values
-# Direct Assignment
+#Direct Assignment
 is_student = True
 is_employee = False
 
