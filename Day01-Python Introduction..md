@@ -417,11 +417,17 @@ Output
 <class 'bool'>
 
 1.Stores True or False
+
 2.Used in conditions and comparisons
+
 3.Created directly or through comparisons
+
 4.Checked using type()
+
 5.Converted using bool()
+
 6.Includes Truthy and Falsy concepts
+
 
 
 
