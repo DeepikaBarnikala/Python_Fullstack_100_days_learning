@@ -153,7 +153,7 @@ Version 1.0 """
 --->Used for: Documentation, Program description, Long explanations 
 
 ----------------------------------------------------------------------------------------------------------------
-**. Variables in Python**
+**Variables in Python**
 
 What is a Variable?
 
@@ -169,6 +169,7 @@ name stores "Deepika"
 age stores 22
 
 * Creating Variables
+  
 Variables are created automatically when a value is assigned.
 
 Example
@@ -241,13 +242,16 @@ course_class = "Python"
 **Naming Conventions**
 
 * Snake Case (Recommended)
+  
 student_name = "Deepika"
 total_marks = 450
 
 * Camel Case
+  
 studentName = "Deepika"
 
 * Pascal Case
+  
 StudentName = "Deepika"
 
 **Multiple Assignment**
@@ -279,7 +283,7 @@ Output:
 100
 
 * Reassignment
-* 
+  
 Reassignment means changing the value stored in a variable.
 
 Example:
