@@ -135,9 +135,9 @@ Here:
 
 Comments are notes written for programmers. Python ignores comments during execution.
 
-* Single-Line Comment
+* Single-Line Comment--> #
 
-# This stores employee salary
+#This stores employee salary
 salary = 25000
 
 -->Use when explanation fits in one line.
@@ -353,7 +353,7 @@ Example
 name = "Deepika"
 del name
 
-# Attempting to access it again:
+#Attempting to access it again:
 
 print(name)
 Output
