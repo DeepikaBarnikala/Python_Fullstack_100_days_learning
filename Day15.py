@@ -25,7 +25,7 @@ not_prime(prime,count)
 
 
 #counting words in the given string
-txt=input("")
+txt=input("Enter the txt:")
 count=0
 def counting(txt,count):
     so=txt.split(' ')
