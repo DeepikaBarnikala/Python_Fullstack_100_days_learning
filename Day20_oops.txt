@@ -1,0 +1,102 @@
+Object-Oriented Programming (OOP):
+------------------------------------
+What is OOP?
+
+Object-Oriented Programming (OOP) is a programming paradigm in which we organize our code using classes and objects.
+Instead of writing everything in functions and variables, we group data (attributes) and functions (methods) into one unit called a class.
+
+Definition (Interview Answer)
+Object-Oriented Programming (OOP) is a programming paradigm that organizes code into classes and objects, where objects contain both data (attributes) and functions (methods).
+----------------------
+Why OOP?
+Imagine you are creating a software for a school that has 1000 students.
+-----------------------------
+Without OOP:
+
+student1_name = "Ram"
+student1_age = 20
+
+student2_name = "Ravi"
+student2_age = 21
+
+student3_name = "Sita"
+student3_age = 19
+------------------------------------
+You'll end up writing the same code again and again.
+
+Using OOP:
+---------------------------
+student1 = Student("Ram", 20)
+student2 = Student("Ravi", 21)
+student3 = Student("Sita", 19)
+------------------------------
+Only one class is created, and you can create as many objects as you want.
+
+Advantages of OOP:
+------------------
+Code becomes reusable.
+Easy to understand.
+Easy to maintain.
+Reduces code duplication.
+Suitable for large software projects.
+
+Important Terms
+1. Class
+A class is a blueprint or template used to create objects.
+
+Example:
+
+class Student:
+    pass
+
+2. Object
+An object is a real instance created from a class.
+
+s1 = Student()
+
+Here:
+
+Student → Class
+s1 → Object
+
+3. Constructor (__init__()):
+The constructor is a special method that is called automatically whenever an object is created.
+
+class Student:
+
+    def __init__(self):
+        print("Object Created")
+
+s1 = Student()
+
+Output:
+Object Created
+
+4. self:
+self refers to the current object.
+
+class Student:
+
+    def __init__(self, name):
+        self.name = name
+
+self.name means "this object's name."
+
+5. Attributes:
+Attributes are variables that belong to an object.
+
+self.name
+self.age
+
+6. Methods:
+Methods are functions inside a class.
+
+class Student:
+
+    def display(self):
+        print("Hello")
+
+Call it like this:
+
+s1.display()
+
