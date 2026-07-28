@@ -91,4 +91,3 @@ num_=[1,2,1,5,3,2,7,5,9,8,7]
 num_.sort(reverse=True)
 print(num_)
 
-# Note: i used same var names for some list methods so before perform any method kindly comment the remaining variables in diff methods
