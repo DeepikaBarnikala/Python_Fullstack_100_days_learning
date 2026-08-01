@@ -7,7 +7,7 @@ list()
 tuple()
 dict()
 
-note:comment each section while running the other section'''
+note:comment each section while running the other section '''
 #Integer--> String, Float
 num=89
 print(type(num))
