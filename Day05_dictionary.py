@@ -10,7 +10,7 @@ syntax: var_name.values()
 items()---> we'll get both keys and values
 clear()--> used to remove all the key:val from dict--> result is empty dict
 get()--> returns specific key value and if key isnot present in dict it will returns None.
-pop()-->removes a spe ific key
+pop()-->removes a specific key
 '''
 ICIC_details_ = {"name": "Deepika",
                  "mobile":1234567890,
