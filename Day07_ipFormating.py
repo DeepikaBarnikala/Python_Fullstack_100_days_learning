@@ -1,4 +1,4 @@
-'''Input formatting:nput formatting means taking user input and converting it
+'''Input formatting:input formatting means taking user input and converting it
 into the required data type or structure.
 map()-->Takes many values. Applies the same function to each value.'''
 #input()-->basic ip that takes input as a string by default.
