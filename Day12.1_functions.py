@@ -1,5 +1,6 @@
 '''
-Functions: it is a block of code that can be reused.It will help to remove repeated lines of code.
+Functions: 
+it is a block of code that can be reused.It will help to remove repeated lines of code.
 Functions are of 2 types:
 1.Built-in functions--> print(),max(),type(),min(),type()...
 2.User define functions
@@ -11,7 +12,6 @@ def func_name(parameters): --> definition line
     --------
     --------
 func_name(parameters)--> calling line
-
 types of arguments:
 1.required arguments-->have to pass same number of arguments with the definition of the function
 2.default
