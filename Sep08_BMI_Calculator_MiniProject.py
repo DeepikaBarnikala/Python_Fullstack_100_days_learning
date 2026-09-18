@@ -48,7 +48,7 @@ for i in range(number_of_times_user_input):
 #Repetition -->While
 # same above task we need to handle the erros(Expection handling) and also
 #Make user strictly to enter only numeric values
-'''
+
 results = []
 number_of_users = int(input("Enter the number of users: "))
 for i in range(number_of_users):
@@ -89,10 +89,98 @@ for i in range(number_of_users):
 print("\nBMI Results:")
 
 for result in results:
-    print(result)
+    print(result)'''
 
 
+#Realistic BMI calculator implementation
+
+results = []
+
+# Getting number of users
+while True:
+    try:
+        number_of_users = int(input("Enter the number of users: "))
+
+        if number_of_users > 0:
+            break
+        else:
+            print("Number of users must be greater than 0.")
+
+    except ValueError:
+        print("Please enter a valid whole number.")
 
 
+# Taking details for each user
+for i in range(number_of_users):
+
+    print(f"\n----- User {i + 1} -----")
+
+    while True:
+        try:
+            # Name validation
+            name = input("Enter your name: ").strip()
+
+            if name == "":
+                print("Name cannot be empty.")
+                continue
+
+            # Weight and height
+            weight = float(input("Enter the weight in Kgs: "))
+            height = float(input("Enter the height in meters: "))
+
+            # Positive value validation
+            if weight <= 0 or height <= 0:
+                print("Weight and height must be greater than 0.")
+                continue
+
+            # Calculate BMI
+            bmi = weight / (height ** 2)
+
+            break
+
+        except ValueError:
+            print("Invalid input!")
+            print("Please enter numbers for weight and height.")
 
 
+    # BMI category
+    if bmi < 18.5:
+        category = "Under Weight"
+
+    elif bmi < 25:
+        category = "Normal Weight"
+
+    elif bmi < 30:
+        category = "Over Weight"
+
+    else:
+        category = "Obesity"
+
+
+    # Display result
+    print(f"\n{name} is in the {category} category.")
+    print(f"BMI: {bmi:.2f}")
+
+
+    # Store result
+    result = {
+        "name": name,
+        "weight": weight,
+        "height": height,
+        "BMI": round(bmi, 2),
+        "category": category
+    }
+
+    results.append(result)
+
+
+# Display all results
+print("\n========== BMI RESULTS ==========")
+
+for result in results:
+    print(f"Name     : {result['name']}")
+    print(f"Weight   : {result['weight']} kg")
+    print(f"Height   : {result['height']} m")
+    print(f"BMI      : {result['BMI']}")
+    print(f"Category : {result['category']}")
+    print("---------------------------------")

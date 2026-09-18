@@ -102,7 +102,7 @@ data={'name':['deepika','divya'],'place':['vizag','hyderabad']}
 data.update({'batch':'PFS004'})
 batch(**data)
 
-#tash:create a function with the usage of *args and **kwargs
+#task:create a function with the usage of *args and **kwargs
 '''
 def fn(*a,**b):
     ....

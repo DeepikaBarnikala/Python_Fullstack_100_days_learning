@@ -1,9 +1,13 @@
+     PRACTICE
+    =========
+
 # Question 1: Student Marks Manager
 
 marks = []
 
 for i in range(3):
     mark = int(input("Enter mark: "))
+    
     marks.append(mark)
 
 print("\nOriginal marks:", marks)
@@ -142,4 +146,13 @@ else:
 if python_students.isdisjoint(da_students):
     print("The two sets are disjoint: True")
 else:
-    print("The two sets are disjoint: False")
+    print("The two sets are disjoint: False")                                      
+                                      
+
+
+
+
+
+
+                                      
+
