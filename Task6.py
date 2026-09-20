@@ -63,7 +63,7 @@ def generate_developer_qr():
         DEVELOPER PROFILE
 ================================
 
-Name: Layatri Murakada
+Name:Deepika Barnikala
 
 Role: Python Full Stack Developer
 
@@ -72,23 +72,21 @@ Python
 SQL
 HTML
 CSS
+Bootstrap
 JavaScript
 React
 
 Email:
-layatrimurakada@gmail.com
+deepikabarnikala0410@gmail.com
 
 LinkedIn:
-https://www.linkedin.com/in/layatri-murakada-86403a296/
+https://www.linkedin.com/in/deepika-barnikala-ab5a4b301/?trk=opento_sprofile_topcard
 
 GitHub:
-https://github.com/LayatriMurakada-123
+https://github.com/DeepikaBarnikala
 
 YouTube:
-https://www.youtube.com/@LayatriMurakada-h1o
-
-Instagram:
-https://www.instagram.com/layatri_murakada/
+https://www.youtube.com/
 
 ================================
         THANK YOU!

@@ -1,7 +1,7 @@
 import segno
 
 # Developer Profile Details
-profile = """
+profile =( """
 ================================
         DEVELOPER PROFILE
 ================================
@@ -37,7 +37,7 @@ https://www.instagram.com/deepika_barnikala/
 ================================
         THANK YOU!
 ================================
-"""
+""")
 
 # Create QR Code
 qr = segno.make(profile)
