@@ -1,6 +1,8 @@
 '''
 OOP - Object Oriented Programming - Objects
 
+getter and setter-->access modifiers
+
 POP - Procedure Oriented Programming - Functions
 
 #Chair (Object) - Wood(Materials), Design(Dimensions), Person
