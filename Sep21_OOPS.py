@@ -113,7 +113,7 @@ print(b1.amount)
 b1.hdfc_cash()
 print(b1.rbiCash())
 
-'''
+
 #single inheritance usage--> Base class and derived class with constructors
 #kid,father --> Property scenario
 
@@ -125,7 +125,7 @@ class Father:
         print (f'Father property is {self.fproperty}')
 u1=Father()
 u1.father_property()
-'''
+
 class Kid(Father):
     pass
 print(u1.property)
@@ -150,7 +150,7 @@ u1.kid_property()
 -->we can call super class constructor(ie parent class constructor)-->super().__init__()
 -->Superclass constructor with args --> super().__init__(args)    
 -->Superclass method(method overriding) --> super().method()
-'''
+
 class Kid(Father):
     """ Kid Started earning"""
     def __init__(self):
@@ -166,7 +166,29 @@ u1.kid_property()
 #in above case we have modified the attributes kproperty for kids and
 #fproperty for father with default values
 
+#Usage of super()
+#super with arguments--> supe().__init__(args)
 
+class Father:
+    """ Father class with base property amount"""
+    def __init__(self,fproperty):
+        self.fproperty=fproperty
+    def father_property(self):
+        print (f'Father property is {self.fproperty}')
+class Kid(Father):
+    """ kid class with kproperty argument"""
+    def __init__(self,kproperty,fproperty):
+        super().__init__(fproperty)
+        self.kproperty=kproperty
+    def kid_property(self):
+        print (f'kid property is {self.kproperty}')
+        print(f'Total combined Property is {self.fproperty + self.kproperty}')
+u1=Kid(34556789,34567)
+u1.kid_property() #AttributeError
+u1.father_property()
+print(u1.__dict__)
+
+'''
 
 
 
